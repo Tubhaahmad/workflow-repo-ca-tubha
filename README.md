@@ -123,7 +123,6 @@ npx husky install
 ```
 Ensures clean, linted, formatted code before pushing.
 
-### Environment Variables
 
 ## 📁 Environment Variables
 
