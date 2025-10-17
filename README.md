@@ -155,9 +155,30 @@ In CI, they are provided via GitHub Secrets.
 - `npm run test` - Run all Vitest unit tests
 - `npx playwright test` - Run Playwright E2E tests
 - `npx playwright show-report` - Open Playwright HTML report
-        
-	
+
+## ✅ Test Reports
+
+### 🧪 Unit Tests (Vitest)
+All unit tests passed successfully.
+
+![Vitest Report](https://github.com/Tubhaahmad/workflow-repo-ca-tubha/blob/workflow/Screenshot%202025-10-17%20at%2018.33.33.png?raw=true)
+
+### 🎭 End-to-End Tests (Playwright)
+All Playwright login and navigation tests passed successfully.
+
+![Playwright Report](https://github.com/Tubhaahmad/workflow-repo-ca-tubha/blob/workflow/Screenshot%202025-10-17%20at%2017.44.42.png?raw=true)
+
+![Playwright Report](https://github.com/Tubhaahmad/workflow-repo-ca-tubha/blob/workflow/Screenshot%202025-10-17%20at%2017.36.26.png?raw=true)
+
+### 🧱 GitHub Actions Checks
+All automated workflow checks passed successfully.
+
+![GitHub Actions Checks](https://github.com/Tubhaahmad/workflow-repo-ca-tubha/blob/workflow/Screenshot%202025-10-17%20at%2018.31.57.png?raw=true)
+
+![GitHub Actions Checks](https://github.com/Tubhaahmad/workflow-repo-ca-tubha/blob/workflow/Screenshot%202025-10-17%20at%2018.31.07.png?raw=true)
+
+
 
 ## 👩‍💻 Author
 
-Toubha Ahmed
+### Toubha Ahmed
