@@ -181,4 +181,4 @@ All automated workflow checks passed successfully.
 
 ## 👩‍💻 Author
 
-### Toubha Ahmed
+### Tubha Ahmad
