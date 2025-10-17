@@ -125,13 +125,25 @@ Ensures clean, linted, formatted code before pushing.
 
 ### Environment Variables
 
-#### Create a .env file in the project root:
+## 📁 Environment Variables
+
+This project uses a `.env` file to store environment variables required for testing and local development.
+
+You must create your own `.env` file in the project root, based on the provided `.env.example`.
+
+### Example structure
+
 ```bash
-TEST_USER_EMAIL=<your_test_email>
-TEST_USER_PASSWORD=<your_test_password>
+# .env.example
+TEST_USER_EMAIL=exampleuser@stud.noroff.no
+TEST_USER_PASSWORD=examplepassword123
+BASE_URL=http://localhost:5173
 ```
-⚠️ These are used by Playwright tests for login and must not be committed.
-In CI, they are provided via GitHub Secrets.
+
+### Instructions
+1. Duplicate .env.example and rename it to .env.
+2. Fill in your real test credentials or API keys where needed.
+3. Never commit your actual .env file — it is already included in .gitignore.
 
 
 ## Workflow file:
